@@ -67,7 +67,7 @@ class RTN1000:
         elif(ins == 0xFE): #EXIT code
             sys.exit(a);
         elif(ins == 0xFF): #EXIT
-            sys.exit(RegGet(self.MAX_REG));
+            sys.exit(RegGet(0));
 
         print("[DEBUG] - Registers: ",self.reg," - PC: ",hex(self.PC,4)," - SP: ",hex(self.SP,4))
         
