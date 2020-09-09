@@ -14,21 +14,4 @@ def AND(a,b):
 
 def BIT(a, idx):
     mask = 1 << idx
-    return bool(a & mask
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                )
+    return bool(a & mask)
